@@ -1,6 +1,6 @@
-const a = +prompt('Input the length of the first side');
-const b = +prompt('Input the length of the second side');
-const c = +prompt('Input the length of the third side');
+const a = parseInt(prompt('Input the length of the first side'));
+const b = parseInt(prompt('Input the length of the second side'));
+const c = parseInt(prompt('Input the length of the third side'));
 if (a + b < c || a + c < b || c + b < b) {
 	console.log('Triangle doesn’t exist');
 } else if (a === b === c) {
